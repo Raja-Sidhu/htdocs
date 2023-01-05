@@ -22,5 +22,4 @@ if ($row = oci_fetch_array($result)) {
 }
 echo json_encode($data);
 oci_close($con);
-test
 
